@@ -1,5 +1,5 @@
 {
-    "name": "enniel/laravel-fcm-notification-channel",
+    "name": "nicard/laravel-fcm-notification-channel",
     "type": "library",
     "description": "Firebase Cloud Messages Notification Driver",
     "keywords": [
