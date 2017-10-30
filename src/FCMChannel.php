@@ -51,5 +51,7 @@ class FCMChannel
         $response = $this->sender->{$method}(...$message->getArgs());
 
         Event::fire(new MessageWasSended($response, $notifiable));
+        
+        return $response;
     }
 }
